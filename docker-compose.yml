@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  angular-service:
+    container_name: iSec-frontend
+    build: .
+    ports:
+      - "5200:80"
